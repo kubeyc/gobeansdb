@@ -1,0 +1,6 @@
+{
+    "go.toolsGopath": "/home/xyc/.go",
+    "go.inferGopath": false,
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": true
+}

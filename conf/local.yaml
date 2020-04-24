@@ -1,0 +1,23 @@
+# for python test
+mc:
+  body_c_str: 0
+server:
+  port: 7980
+  webport: 7988
+  errorlog: ./gobeansdb.log
+  accesslog: ./access.log
+  analysislog: ./gobeansdb_analysis.log
+  #zk: ["zk1:2181"]
+hstore:
+  data:
+    flush_interval: 0
+    flush_wake_str: 0
+    no_gc_days: 0
+  local:
+    homes:
+    - ./testdb
+  htree:
+    tree_height: 3
+    tree_dump : 1
+  hint:
+    hint_no_merged: false
